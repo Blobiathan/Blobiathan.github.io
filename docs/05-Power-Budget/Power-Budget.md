@@ -5,8 +5,7 @@ title: Power Budget
 ## Overview
 Write a overview of what you did and why you did a Power Budget.
 
-<img width="1338" height="703" alt="image" src="https://github.com/user-attachments/assets/d6384177-1b91-4a0b-9189-163dd91c7c6b" />
-<img width="1338" height="235" alt="image" src="https://github.com/user-attachments/assets/48d87511-bb59-477b-9cad-65d06d4f62c9" />
+<img width="1338" height="1067" alt="image" src="https://github.com/user-attachments/assets/10882342-5b87-44e9-b617-a9e5eb8ba6dc" />
 
 ## Conclusions
 
