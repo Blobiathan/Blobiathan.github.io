@@ -15,7 +15,18 @@ title: Component Selection Example
 **Rationale:** Option 2 and 3 are good choices, but their price does not justify their convenience. Option 1 is available, and simple enough to use, even if additional components are required for it to work. Additionally this PCB will not draw much current so the higher maximums of options 2 and 3 aren't much of a pro.
 
 
+**Power Source**
 
+
+| **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| ![](https://www.sparkfun.com/adjustable-voltage-wall-adapter-power-supply-5v-15v.html)<br>Option 1.<br> 9V wall power supply| \* Inexpensive<br>\* Straightforward to use<br>\* Already have one on hand, no delivery or purchace needed                                               | \* Requires additional components to reduce voltage |
+| ![](https://dreamdesigndiy.com/easy-electrical-outlet-cover-tip/)<br>\* Option 2. <br>\* Unregulated wall power supply| \*Large current and voltage | * Requires rectification <br>\* PCB needs a transformer to reduce voltage                                                         |
+| ![]()<br>\* Option 3. <br>\* 9V Battery| \* Can be used outside of a home <br>\* Can be easily relocated | * Need to replace batteries. <br>\* Requires additional components to reduce and regulate volatge
+
+**Choice:** Option 1: 9V wall power supply
+
+**Rationale:** A wall adaptor was already provided to us. A battery wouldn't make sense for this device since it is stationary and located within a home. Additionally it would be diffucult and needlessly complex to rectify and regulate an unregulated wall power supply on the PCB itself so Option 1 is the ideal choice.
 
 
 **Light Detector**
