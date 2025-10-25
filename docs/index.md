@@ -7,28 +7,27 @@ tags:
 <center>
 <font size= "6">Levi Addink Datasheet</font><br>
 as part of<br>
-<font size= "8"> Git setup project</font><br>
+<font size= "8"> Plant monitoring system project</font><br>
 for<br>
-<font size= "5"> Team ### </font><br>
+<font size= "5"> Team 211 </font><br>
 
-**Submission: month, DD, YYYY**
+**Submission: 10, 24, 2025**
 </center>
 
 ## Introduction
 
-* This needs to be updated so that a reader gets an idea of the purpose of this datasheet.
+* This datasheet exists to explain this specific subsection of the project, specifically my board handles the measurement of sunlight and moisture for the plant monitoring system.
 
 ### Project Summary
 
-* This needs to be updated to reflect <ins>your version</ins> of the team project, so when shared not via the team's report, the reader gets an idea of the direction of the project and how your work will contribute to the overall success.
-* Add context that ties into the link to your [team report.](https://embedded-systems-design.github.io/EGR304TeamTemplate/)
+* Our team project is a device to monitor and automatically water indoor plants. The goal of this device is to ellimate a repetive task by allowing a user to simply fill a tank with water and let the system handle the rest. My portion covers the measurements of sunlight and moisture via a photoresistor and moisture sensor respectivly.
+* Link to team report: [team report.](https://egr304-2025-f-211.github.io/)
 
 
 ### My Contribution
 
+My PCB uses a moisture sensor and sunlight sensor to collect data on the plant it is monitoring. Those values are then converted into a single 0-100% value, and sent back to the main PCB via the 8 pin connection that all of our boards have. This is used to automate watering as well as inform the user of how much sunlight the plant is reciving throughout the day.
 * This needs to be updated to reflect a team introduction
 * Content should also help an unfamiliar reader navigate to areas of interest. Information like:
 
-To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/03-BOM/BOM/) section of the datasheet.
-
-For all the sections
+To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://blobiathan.github.io/03-BOM/BOM/) section of the datasheet.
