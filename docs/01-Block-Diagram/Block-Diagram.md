@@ -13,4 +13,4 @@ This board will also have three LED lights, a green light to indicate that it is
 Since there are no actuators or higher voltage components connected to this board, it can run entirely off of the 5V 1.5A regulated power supply.
 
 ## Block Diagram
-<img width="701" height="651" alt="IndividualBlock drawio" src="https://github.com/user-attachments/assets/07fb3371-7b62-4cf8-9394-3b5502d91758" />
+![BlockDiagram](individual-block-diagram.png)
