@@ -11,4 +11,4 @@ This schematic is designed to monitor both sunlight and water levels. It will ga
 
 
 ## Resouces
-The schematic as a PDF download is available [*here*](PCB.pdf), and the Zip folder of the project [*here*](PCB.zip) and the custom symbols are [*here*](https://github.com/user-attachments/files/23012686/Subsystem.Schematic.Design.LDA.Custom.Symbols.zip)
+The schematic as a PDF download is available [*here*](PCB.pdf), and the Zip folder of the project [*here*](PCB.zip) and the custom symbols are [*here*](PCBSYM.zip)
