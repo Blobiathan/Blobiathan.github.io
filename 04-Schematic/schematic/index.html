@@ -843,7 +843,8 @@
   <h1>Schematic</h1>
 
 <h2 id="overview">Overview</h2>
-<p>This schematic is designed to monitor both sunlight and water levels. It will gather this data and send it through the connector to the Hub board.
+<p>This schematic is designed to monitor both sunlight and water levels. It has a photoresistor, and moisture sensor, and both of their signals are amplified via the opamp before being read by the microcontroller. Those values are then mapped to a 0-100% scale, and sent to the main hub board via the 8 pin connector.</p>
+<p>The schematic also contains several LEDs and a button for debugging, as well as several spare pins, headers, and a handful of test points in case anything needs debugging.
 <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../PCB2.png" data-desc-position="bottom"><img alt="BigImportantPCB_page-0001" src="../PCB2.png"></a>
 <strong>Figure 1:</strong> Moisture and Sunlight sensor PCB Schematic</p>
 <h2 id="resouces">Resouces</h2>
