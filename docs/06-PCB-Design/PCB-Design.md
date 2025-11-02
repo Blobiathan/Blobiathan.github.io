@@ -1,4 +1,4 @@
-title: Power Budget
+title: PCB Design
 ---
 
 ## Overview
