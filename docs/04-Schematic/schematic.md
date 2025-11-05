@@ -13,4 +13,4 @@ The schematic also contains several LEDs and a button for debugging, as well as 
 
 
 ## Resouces
-The schematic as a PDF download is available [*here*](SCHEMATIC.pdf), and the Zip folder of the project [*here*](PCB.zip) and the custom symbols are [*here*](PCBSYM.zip)
+The schematic as a PDF download is available [*here*](SCHEMATIC.pdf), and the Zip folder of the project [*here*](PCBProjectFiles.zip) and the custom symbols are [*here*](PCBSYM.zip)
