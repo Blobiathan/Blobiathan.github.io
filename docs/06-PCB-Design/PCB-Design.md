@@ -8,4 +8,4 @@ This PCB design contains all the components from the schematic design. The photo
 ![PCBFRONT](PCB_V2_Back.png)
 
 [PDF](PVC_V2.pdf)
-[Custom footprints](LeviAddinkPCBCustomFootprints.zip)
+[Custom footprints](CustomFootprints.zip)
