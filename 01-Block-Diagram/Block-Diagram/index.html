@@ -539,6 +539,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#meeting-project-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Meeting project requirements
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -883,6 +892,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#meeting-project-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Meeting project requirements
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -914,6 +932,8 @@
 <p>Since there are no actuators or higher voltage components connected to this board, it can run entirely off of the 5V 1.5A regulated power supply.</p>
 <h2 id="block-diagram">Block Diagram</h2>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../IndividualBlock.drawio%283%29.png" data-desc-position="bottom"><img alt="BlockDiagram" src="../IndividualBlock.drawio%283%29.png"></a></p>
+<h2 id="meeting-project-requirements">Meeting project requirements</h2>
+<p>The LED and button are required components for this project, so they had to be included. I decided to add 2 more additional LED's for debugging and astetic purposes, whihc did not contribute to meeting the project requirements. The project also required that each board had a analog sensor of some type, which is then altered in some way by an op-amp. In my block diagram the photoresistor and op-amp meet these requirements, by creating an analog signal with the photoresistor and then amplifying it with the op-amp to a 0-5V range. Additionally one of the project requirements is to sucessfully regulate a higher input voltage down to 5V to supply power to the board, this is accomplished by the L7805CV voltage regulator. The moisture sensor is not in any way required for the project, and was added simply as an additional goal to meet if there was enough time.</p>
 
 
 
