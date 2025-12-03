@@ -62,6 +62,6 @@ It's also worth noting that although the actual device has a 3V indicator on it,
 
 
 
-##Summary Table
-<img width="1199" height="121" alt="image" src="https://github.com/user-attachments/assets/028a90dd-30d2-45bf-b53c-f733728a8fc9" />
+## Summary Table
+![](SummaryTable.png)
 
