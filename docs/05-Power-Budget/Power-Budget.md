@@ -11,3 +11,6 @@ The power budget was created to ensure that the PCB design has adequate amounts 
 ## Conclusions
 
 From the prepare Power Budget, it was determined that the selected regulator does indeed have enough output to easily power all the components on the PCB. The current required is very low.
+
+## Power budget uses
+The power budget was only used for selecting a fuse. Given that my board drew around 700mA (with safety margin), I selected a 1A fuse. The fuse should allow plenty of current without breaking and is still close enough that it will likely be able to break quickly in the result of some error. So far it has worked without issue. The conlcusion I've come to about the power budget is that it works for what it was intended to do, it gives a good estimate of a fuse to use, and the fuse works.
