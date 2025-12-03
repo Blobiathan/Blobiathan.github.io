@@ -5,12 +5,12 @@ title: PCB Design
 This PCB design contains all the components from the schematic design. The photoresistor and moisture sensor's footprints are both female headers, this is so that the sensors can be connected by a longer wire, and can be swapped out easily. Additionally the microcontroller footprint will also have female headers.
 ## PCB Images
 **Raw PCB**
-![PCBFRONTINCOMPLETE](Incomplete_F.png)
-![PCBBACKINCOMPLETE](Incomplete_B.png)
+![PCBFRONTINCOMPLETE](Incomplete_F.jpg)
+![PCBBACKINCOMPLETE](Incomplete_B.jpg)
 
 ---
-![PCBFRONTCOMPLETE](Complete_F.png)
-![PCBFBACKCOMPLETE](Incomplete_B.png)
+![PCBFRONTCOMPLETE](Complete_F.jpg)
+![PCBFBACKCOMPLETE](Incomplete_B.jpg)
 ## ECAD Images
 ![PCBFRONT](Front_PCB.png)
 ![PCBBACK](Back_PCB.png)
