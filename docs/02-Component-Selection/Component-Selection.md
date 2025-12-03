@@ -59,3 +59,9 @@ title: Component Selection Example
 **Rationale:** All options are very similar. Option 2 is much cheaper than 1 for essentially the same quality and function, so Option 1 is out. The capacitive sensor was interesting, but ultimatly nowhere near worth the higher cost and shipping time. Option 2 is also more compact, and our device is more geared towards smaller potted plants.
 
 It's also worth noting that although the actual device has a 3V indicator on it, the website says that 5V is fine to use as well, which is the voltage I plan to use.
+
+
+
+##Summary Table
+<img width="1199" height="121" alt="image" src="https://github.com/user-attachments/assets/028a90dd-30d2-45bf-b53c-f733728a8fc9" />
+
