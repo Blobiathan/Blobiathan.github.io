@@ -10,7 +10,7 @@ This PCB design contains all the components from the schematic design. The photo
 
 ---
 ![PCBFRONTCOMPLETE](Complete_F.jpg)
-![PCBFBACKCOMPLETE](Incomplete_B.jpg)
+![PCBFBACKCOMPLETE](Complete_B.jpg)
 ## ECAD Images
 ![PCBFRONT](Front_PCB.png)
 ![PCBBACK](Back_PCB.png)
