@@ -9,3 +9,4 @@ This PCB design contains all the components from the schematic design. The photo
 
 [PDF](PCB.pdf)
 [Custom footprints](CustomFootprints.zip)
+[Gerber files](Levi.zip)
