@@ -21,6 +21,8 @@ for<br>
 ### Project Summary
 
 * Our team project is a device to monitor and automatically water indoor plants. The goal of this device is to ellimate a repetive task by allowing a user to simply fill a tank with water and let the system handle the rest. My portion covers the measurements of sunlight and moisture via a photoresistor and moisture sensor respectivly.
+
+### Team project link
 * Link to team report: [team report.](https://egr304-2025-f-211.github.io/)
 
 
