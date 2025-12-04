@@ -28,6 +28,6 @@ for<br>
 
 ### My Contribution
 
-My PCB uses a moisture sensor and sunlight sensor to collect data on the plant it is monitoring. Those values are then converted into a single 0-100% value, and sent back to the main PCB via the 8 pin connection that all of our boards have. This is used to automate watering as well as inform the user of how much sunlight the plant is reciving throughout the day.
+My PCB uses a moisture sensor and sunlight sensor to collect data on the plant it is monitoring. Those values are then converted into a 0-100% value, and sent back to the main PCB via the 8 pin connection that all of our boards have. This is used to automate watering as well as inform the user of how much sunlight the plant is reciving throughout the day.
 
 To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://blobiathan.github.io/03-BOM/BOM/) section of the datasheet.
