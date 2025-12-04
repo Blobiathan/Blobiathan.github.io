@@ -1,4 +1,4 @@
-title: PCB Design
+title: Resources
 ---
 
 ## MPLabX files
