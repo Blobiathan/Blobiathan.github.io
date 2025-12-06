@@ -64,6 +64,6 @@ It's also worth noting that although the actual device has a 3V indicator on it,
 
 ## Summary Table
 ![](SummaryTable.png)
-## MCC Configuration (PIC)/ Pinout Table (ESP32)
+## MCC Configuration (PIC)/ Pinout Table
 ![](MCC_app.png)
 ![](MCCPins.png)
