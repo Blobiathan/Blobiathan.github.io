@@ -825,7 +825,7 @@
   <h1>Module's Requirements</h1>
 
 <h2 id="module-requirements">Module Requirements</h2>
-<p>The following sections document the requirements that the this module need to fulfills to .....</p>
+<p>The following table shows the requirements for this module. For the project I have been tasked with creating a visual inspection module for the device. It should be able to record visual data, and either save or send it to the controller. Ideally this sensor will be a camera, but if that turns out not to be viable, a basic color sensor or lidar will have to suffice. This table also contains the basic requirements, such as power, the use of a microcontroller, and connectors to send data between boards.</p>
 <table>
 <thead>
 <tr>
@@ -837,7 +837,7 @@
 </thead>
 <tbody>
 <tr>
-<td>Surface mounted, 3.3V switching power regulatore</td>
+<td>Surface mounted, 3.3V switching power regulator</td>
 <td>3.2 Volts</td>
 <td>3.3 Volts</td>
 <td style="text-align: center;">No</td>
@@ -845,20 +845,32 @@
 <tr>
 <td>Surface mounted microcontroller</td>
 <td>1 PIC or ESP</td>
-<td>8-bit PIC</td>
+<td>ESP</td>
 <td style="text-align: center;">No</td>
 </tr>
 <tr>
-<td>Wireless Communication</td>
-<td>Able to send or receive a Wi-Fi data</td>
-<td>Send and receive Wi-Fi Data to MQTT</td>
+<td>Connector to receive power</td>
+<td>Barrel jack connector</td>
+<td>Connection to other teammember's boards for power</td>
+<td style="text-align: center;">NO</td>
+</tr>
+<tr>
+<td>Optical sensor</td>
+<td>Basic color or lidar sensor</td>
+<td>Camera</td>
+<td style="text-align: center;">No</td>
+</tr>
+<tr>
+<td>Connection to other boards to send camera data</td>
+<td>Send image data</td>
+<td>Send video data</td>
 <td style="text-align: center;">Yes</td>
 </tr>
 <tr>
-<td><em>Rest are items your modules needs to support the task you are covering for the team's device.</em></td>
-<td>---</td>
-<td>---</td>
-<td style="text-align: center;"><strong>NO</strong></td>
+<td>SD card slot to save images to</td>
+<td>Save image data</td>
+<td>Save image and video data</td>
+<td style="text-align: center;">Yes</td>
 </tr>
 </tbody>
 </table>
