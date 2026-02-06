@@ -108,7 +108,7 @@ For more details, review the ["Appendix - Component Selection Process - Actuator
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
     | Decent image quality                            | Lots of pins |
-    | Inexpensive                      | May require an external oscilator                            |
+    | Inexpensive                      | May require an external oscillator                            |
     | Commonly used, more documentation online | |
 
    **Selection and Rationale**:
@@ -117,8 +117,15 @@ For the camera I selected option #2 the Arducam 2MP. Although this is the most e
 
 **MicroSD card holder:**
 
-There is not several different types of surface mount microSD slots that can be compared, they all do exactly the same thing. THe only differences between these devices is style, and maybe slight differences in quality. Because of this I found it was not helpful, or possible to create a comparison between different options in regards to this device.
+There are not several different types of surface mount microSD slots that can be compared, they all do exactly the same thing. THe only differences between these devices is style, and maybe slight differences in quality. Because of this I found it was not helpful, or possible to create a comparison between different options in regards to this device.
 
 **Product Name:** MSD-4-A
 **Price:** $0.36/each
 **Link:** [Link to product](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/MSD-4-A/21796808)
+
+
+## Microcontroller Selection
+
+**Requirements:**
+For my board to function the microcontroller must have at least one SPI subsystem, one UART, and 2 i2C subsystems. It will also need 2 GPIO pins. This comes to a total of 10 pins, 2 i2C pins, 3 SPI pins, 1 clock pin, 1 power pin, 1 ground pin, and 2 GPIO pins.
+
