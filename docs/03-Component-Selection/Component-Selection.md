@@ -63,3 +63,53 @@ For more details, review the ["Appendix - Component Selection Process - Actuator
     | Meets surface mount constraint of project |
 
 **Rationale:** A clock oscillator is easier ...
+
+
+
+
+
+
+
+
+**Camera Module**
+
+1. Arducam 0.3MP
+
+    ![](ArduCam0.3MP.webp)
+
+    * $6/each
+    * [link to product](https://www.arducam.com/640x480-0-3-mp-mega-pixel-lens-ov7675-cmos-camera-module-with-adapter-board.html)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Inexpensive                               | Lots of pins |
+    | Low power consumption                      | Low image quality                                       |
+    | Fast                                     |   |
+
+2. Arducam 2MP
+
+    ![](ArduCam2MP.jpg)
+
+    * $26/each
+    * [link to product](https://www.arducam.com/arducam-2mp-spi-camera-b0067-arduino.html)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Higher image quality                               | Decently expensive |
+    | Less pins, uses both SPI and I2C                      | Larger storage size for images captured                           |
+
+3. OV7670 camera module
+
+    ![](OV7670Camera.jpg)
+
+    * $6/each
+    * [link to product](https://www.digikey.com/en/products/detail/olimex-ltd/CAMERA-OV7670/21662189)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Decent image quality                            | Lots of pins |
+    | Inexpensive                      | May require an external oscilator                            |
+    | Commonly used, more documentation online | |
+
+   **Selection and Rationale**:
+For the camera I selected option #2 the Arducam 2MP. Although this is the most expensive of the three options, it should be the most straightforward to use. The Arducam 2MP board has several components to make control and data exchange quicker, and more simple than the alternatives. Despite the steep cost I believe that it is worth it for the simplicity and higher image quality.
