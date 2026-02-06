@@ -113,3 +113,12 @@ For more details, review the ["Appendix - Component Selection Process - Actuator
 
    **Selection and Rationale**:
 For the camera I selected option #2 the Arducam 2MP. Although this is the most expensive of the three options, it should be the most straightforward to use. The Arducam 2MP board has several components to make control and data exchange quicker, and more simple than the alternatives. Despite the steep cost I believe that it is worth it for the simplicity and higher image quality.
+
+
+**MicroSD card holder:**
+
+There is not several different types of surface mount microSD slots that can be compared, they all do exactly the same thing. THe only differences between these devices is style, and maybe slight differences in quality. Because of this I found it was not helpful, or possible to create a comparison between different options in regards to this device.
+
+**Product Name:** MSD-4-A
+**Price:** $0.36/each
+**Link:** [Link to product](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/MSD-4-A/21796808)
