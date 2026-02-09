@@ -1290,8 +1290,158 @@ I selected option #1 "IC REG BUCK 3.3V 2A TSOT23-6", it is the most simple, inex
 <p><strong>Selection and Rationale</strong>:
 I selected option #3, "LED RED DIFFUSED 1608 SMD". Mainly I just wanted the diffisued LEDs for the astetic, and i like the color red. On the more practical side, the LED used doesn't matter too much, and these LEDs will work just fine, the additional requirment of a resistor isn't too much added difficulty, and although the LED is small I believe I will be able to solder it.</p>
 <h2 id="microcontroller-selection">Microcontroller Selection</h2>
+<table>
+<thead>
+<tr>
+<th>ESP Info</th>
+<th>Answer</th>
+<th>Help</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Model</td>
+<td>ESP32-S3</td>
+<td>Include the entire part number (leave off any letters at the end that specify the package type)</td>
+</tr>
+<tr>
+<td>Product Page URL</td>
+<td><a href="https://www.espressif.com/en/products/socs/esp32-s3">link</a></td>
+<td>Found on Espressif.com</td>
+</tr>
+<tr>
+<td>ESP32-S3-WROOM-1-N4 Datasheet URL</td>
+<td><a href="https://documentation.espressif.com/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf">link</a></td>
+<td>Do not paste links directly into the table.  Use a <a href="#">link</a></td>
+</tr>
+<tr>
+<td>ESP32 S3 Datasheet URL</td>
+<td><a href="https://documentation.espressif.com/esp32-s3_datasheet_en.pdf">link</a></td>
+<td>Has more detail on functions</td>
+</tr>
+<tr>
+<td>ESP32 S3 Technical Reference Manual URL</td>
+<td><a href="https://documentation.espressif.com/esp32-s3_technical_reference_manual_en.pdf">link</a></td>
+<td>Has details on I/O multiplexing, USB, and others</td>
+</tr>
+<tr>
+<td>Vendor link</td>
+<td><a href="https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16162639">link</a></td>
+<td>Digikey, Jameco, etc.  Do not paste links directly into the table.  Use a <a href="#">link</a></td>
+</tr>
+<tr>
+<td>Code Examples</td>
+<td><a href="https://github.com/espressif/arduino-esp32/blob/master/libraries/SPI/src/SPI.h">SPI</a> <a href="https://docs.espressif.com/projects/arduino-esp32/en/latest/api/i2c.html">i2C</a> <a href="https://www.youtube.com/watch?v=hybQpjwJ4aA">Arducam Tutorial</a></td>
+<td>url(s) for libraries on github or other sites related to the microcontroller and your planned peripherals</td>
+</tr>
+<tr>
+<td>External Resources URL(s)</td>
+<td><a href="https://randomnerdtutorials.com/getting-started-with-esp32/">Esp32Tutorial</a> <a href="https://esp32io.com/">Esp32Tutorial</a></td>
+<td>Search on Google and YouTube for other resources for each specific microcontroller.</td>
+</tr>
+<tr>
+<td>Unit cost</td>
+<td>$5.06</td>
+<td>Find on Digikey, Jameco, MPJA, or octopart</td>
+</tr>
+<tr>
+<td>Absolute Maximum Current for entire IC</td>
+<td>355mA</td>
+<td>Find in the microcontroller datasheet</td>
+</tr>
+<tr>
+<td>Supply Voltage Range</td>
+<td>3.0V, 3.3V, and 3.6V respectivly</td>
+<td>Min / Nominal / Max / Absolute Max, as found in datasheet</td>
+</tr>
+<tr>
+<td>Absolute Maximum current <br> (for entire IC)</td>
+<td>355mA</td>
+<td>as found in datasheet</td>
+</tr>
+<tr>
+<td>Maximum GPIO current <br> (per pin)</td>
+<td>40mA</td>
+<td>as found in datasheet</td>
+</tr>
+<tr>
+<td>Supports External Interrupts?</td>
+<td>Yes</td>
+<td>as found in datasheet</td>
+</tr>
+<tr>
+<td>Required Programming Hardware, Cost, URL</td>
+<td>The ESP32 can be programmed with the MPLAB SNAP debugger, which costs $11.21</td>
+<td>as found in datasheet</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Module</th>
+<th># Available</th>
+<th>Needed</th>
+<th>Associated Pins (or * for any)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UART</td>
+<td>3</td>
+<td>1</td>
+<td>* (any except GND, 3V3, EPAD and EN pins)</td>
+</tr>
+<tr>
+<td>external SPI*</td>
+<td>4</td>
+<td>1-2</td>
+<td>GPIO26 ~ GPIO32, GPIO9 ~ GPIO14, GPIO33 ~ GPIO37, GPIO8 ~ GPIO14, GPIO33 ~ GPIO39 and * (any except GND, 3V3, EPAD and EN pins, for SPI3)</td>
+</tr>
+<tr>
+<td>I2C</td>
+<td>2</td>
+<td>1</td>
+<td>* (any except GND, 3V3, EPAD and EN pins)</td>
+</tr>
+<tr>
+<td>GPIO</td>
+<td>36</td>
+<td>2</td>
+<td>* (any except GND, 3V3, EPAD and EN pins)</td>
+</tr>
+<tr>
+<td>ADC</td>
+<td>20</td>
+<td>0</td>
+<td>IO1, IO2, IO3, IO4, IO5, IO6, IO7, IO8, IO9, IO10, IO11, IO12. IO13, IO14, IO15, IO16, IO17, IO18, IO19, IO20</td>
+</tr>
+<tr>
+<td>LED PWM</td>
+<td>8</td>
+<td>0-2</td>
+<td>* (any except GND, 3V3, EPAD and EN pins)</td>
+</tr>
+<tr>
+<td>Motor PWM</td>
+<td>2</td>
+<td>0</td>
+<td>* (any except GND, 3V3, EPAD and EN pins)</td>
+</tr>
+<tr>
+<td>USB Programmer</td>
+<td>0</td>
+<td>0</td>
+<td>ESP32 will be programmed with MPLAB SNAP</td>
+</tr>
+</tbody>
+</table>
 <p><strong>Requirements:</strong>
-For my board to function the microcontroller must have at least one SPI subsystem, one UART, and 2 i2C subsystems. It will also need 2 GPIO pins. This comes to a total of 10 pins, 2 i2C pins, 3 SPI pins, 1 clock pin, 1 power pin, 1 ground pin, and 2 GPIO pins.</p>
+For my board to function the microcontroller must have at least one SPI subsystem, one UART, and 1 i2C subsystem. It will also need 2 GPIO pins. This comes to a total of 10 pins, 2 i2C pins, 3 SPI pins, 1 clock pin, 1 power pin, 1 ground pin, and 2 GPIO pins.</p>
+<p><strong>Description of role:</strong>
+The board I am tasked with creating will have abilitiy to take pictures with a camera, and then store that data, either on the ESP32 or an external microSD card. Storing data to the microSD card is a stretch goal, along with the possibility of storing video data.</p>
+<p><strong>Pinout Diagram:</strong>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Esp32.jpg" data-desc-position="bottom"><img alt="" src="Esp32.jpg"></a></p>
 
 
 
