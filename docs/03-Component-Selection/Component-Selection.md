@@ -162,6 +162,43 @@ There are not several different types of surface mount microSD slots that can be
     | Adjustable output voltage | More expensive than other options |
     | | Low maximum current |
 
+
+   **LED**
+
+1. LED BLUE CLEAR SMD
+    ![](Led1.webp)
+
+    * $0.13/each
+    * [link to product](https://www.digikey.com/en/products/detail/liteon/LTST-C194TBKT/2356225)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Cheap device | Higher current draw |
+    | Higher input voltage, no resistors required | Not diffused |
+
+1. 	LED RED DIFFUSED 0603 SMD
+    ![](Led2.webp)
+
+    * $0.14/each
+    * [link to product](https://www.digikey.com/en/products/detail/ams-osram-usa-inc/LS-Q976-NR-1-0-20-R18/1227986)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | LED is diffused | Very small, may be difficult to solder |
+    | Lower current draw | Will require a resistor |
+
+2. LED RED DIFFUSED 1608 SMD
+    ![](Led3.jpg)
+
+    * $0.12/each
+    * [link to product](https://www.digikey.com/en/products/detail/rohm-semiconductor/SML-D12U1WT86/5843853)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | LED is diffused | Small, may be difficult to solder |
+    | Lower current draw | Will require a resistor |
+
+
 ## Microcontroller Selection
 
 **Requirements:**
