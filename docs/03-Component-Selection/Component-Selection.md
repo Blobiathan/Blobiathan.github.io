@@ -82,9 +82,9 @@ For more details, review the ["Appendix - Component Selection Process - Actuator
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Lots of pins |
+    | Inexpensive device                               | Lots of pins |
     | Low power consumption                      | Low image quality                                       |
-    | Fast                                     |   |
+    | Fast communication and data exchange                                     |   |
 
 2. Arducam 2MP
 
@@ -108,7 +108,7 @@ For more details, review the ["Appendix - Component Selection Process - Actuator
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
     | Decent image quality                            | Lots of pins |
-    | Inexpensive                      | May require an external oscillator                            |
+    | Inexpensive device                      | May require an external oscillator                            |
     | Commonly used, more documentation online | |
 
    **Selection and Rationale**:
@@ -123,6 +123,46 @@ There are not several different types of surface mount microSD slots that can be
 **Price:** $0.36/each
 **Link:** [Link to product](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/MSD-4-A/21796808)
 
+**Voltage regulator**
+
+1. IC REG BUCK 3.3V 2A TSOT23-6
+
+    ![](VoltageReg1.jpg)
+
+    * $0.71/each
+    * [link to product](https://www.digikey.com/en/products/detail/diodes-incorporated/AP63203WU-7/9858426)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Inexpensive device | Simple and may lack features other similar devices have |
+    | High maximum current | May have poorer performance than other similar devices |
+    | | |
+
+2. 	IC REG BUCK 3.3V 2A 6VSON
+
+    ![](VoltageReg3.webp)
+
+    * $2.03/each
+    * [link to product]()
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Smaller footprint | Lower input voltage range |
+    | High maximum current | May be inconvient to solder |
+    | | |
+
+3. 	IC REG BUCK 3.3V 800MA 10VSSOP
+
+    ![](VoltageReg2.webp)
+
+    * $1.25/each
+    * [link to product]()
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Higher efficiency | More pins |
+    | Adjustable output voltage | More expensive than other options |
+   | | Low maximum current |
 
 ## Microcontroller Selection
 
