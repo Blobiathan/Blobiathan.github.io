@@ -136,7 +136,6 @@ There are not several different types of surface mount microSD slots that can be
     | ----------------------------------------- | ---------------------------------------------------------------- |
     | Inexpensive device | Simple and may lack features other similar devices have |
     | High maximum current | May have poorer performance than other similar devices |
-    | | |
 
 2. 	IC REG BUCK 3.3V 2A 6VSON
 
@@ -149,7 +148,6 @@ There are not several different types of surface mount microSD slots that can be
     | ----------------------------------------- | ---------------------------------------------------------------- |
     | Smaller footprint | Lower input voltage range |
     | High maximum current | May be inconvient to solder |
-    | | |
 
 3. 	IC REG BUCK 3.3V 800MA 10VSSOP
 
@@ -162,7 +160,7 @@ There are not several different types of surface mount microSD slots that can be
     | ----------------------------------------- | ---------------------------------------------------------------- |
     | Higher efficiency | More pins |
     | Adjustable output voltage | More expensive than other options |
-   | | Low maximum current |
+    | | Low maximum current |
 
 ## Microcontroller Selection
 
