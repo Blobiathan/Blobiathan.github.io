@@ -142,7 +142,7 @@ There are not several different types of surface mount microSD slots that can be
     ![](VoltageReg3.webp)
 
     * $2.03/each
-    * [link to product]()
+    * [link to product](https://www.digikey.com/en/products/detail/texas-instruments/TPS6282533DMQR/15212775)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
@@ -154,7 +154,7 @@ There are not several different types of surface mount microSD slots that can be
     ![](VoltageReg2.webp)
 
     * $1.25/each
-    * [link to product]()
+    * [link to product](https://www.digikey.com/en/products/detail/texas-instruments/TPS62056DGSR/1672287)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
