@@ -117,7 +117,7 @@ For the camera I selected option #2 the Arducam 2MP. Although this is the most e
 
 **MicroSD card holder:**
 
-There are not several different types of surface mount microSD slots that can be compared, they all do exactly the same thing. THe only differences between these devices is style, and maybe slight differences in quality. Because of this I found it was not helpful, or possible to create a comparison between different options in regards to this device.
+There are not several different types of surface mount microSD slots that can be compared, they all do exactly the same thing. The only differences between these devices is style, and maybe slight differences in quality. Because of this I found it was not helpful, or possible to create a comparison between 3 different options in regards to this device.
 
 **Product Name:** MSD-4-A
 **Price:** $0.36/each
@@ -162,6 +162,9 @@ There are not several different types of surface mount microSD slots that can be
     | Adjustable output voltage | More expensive than other options |
     | | Low maximum current |
 
+    **Selection and Rationale**:
+I selected option #1 "IC REG BUCK 3.3V 2A TSOT23-6", it is the most simple, inexpensive and straightforward of the three options. The 2A limit is likely more than enough for my board, and the large input voltage range is plenty for the input power. Overall there's no reason to overcomplicate this component, the first option works.
+
 
    **LED**
 
@@ -176,7 +179,7 @@ There are not several different types of surface mount microSD slots that can be
     | Cheap device | Higher current draw |
     | Higher input voltage, no resistors required | Not diffused |
 
-1. 	LED RED DIFFUSED 0603 SMD
+2. 	LED RED DIFFUSED 0603 SMD
     ![](Led2.webp)
 
     * $0.14/each
@@ -187,7 +190,7 @@ There are not several different types of surface mount microSD slots that can be
     | LED is diffused | Very small, may be difficult to solder |
     | Lower current draw | Will require a resistor |
 
-2. LED RED DIFFUSED 1608 SMD
+3. LED RED DIFFUSED 1608 SMD
     ![](Led3.jpg)
 
     * $0.12/each
@@ -197,6 +200,9 @@ There are not several different types of surface mount microSD slots that can be
     | ----------------------------------------- | ---------------------------------------------------------------- |
     | LED is diffused | Small, may be difficult to solder |
     | Lower current draw | Will require a resistor |
+
+   **Selection and Rationale**:
+I selected option #3, "LED RED DIFFUSED 1608 SMD". Mainly I just wanted the diffisued LEDs for the astetic, and i like the color red. On the more practical side, the LED used doesn't matter too much, and these LEDs will work just fine, the additional requirment of a resistor isn't too much added difficulty, and although the LED is small I believe I will be able to solder it.
 
 
 ## Microcontroller Selection
