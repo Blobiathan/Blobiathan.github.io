@@ -41,7 +41,7 @@ title: Module's Selected Major Components
     | Inexpensive device                      | May require an external oscillator                            |
     | Commonly used, more documentation online | |
 
-   **Selection and Rationale**:
+**Selection and Rationale**:
 For the camera I selected option #2 the Arducam 2MP. Although this is the most expensive of the three options, it should be the most straightforward to use. The Arducam 2MP board has several components to make control and data exchange quicker, and more simple than the alternatives. Despite the steep cost I believe that it is worth it for the simplicity and higher image quality.
 
 
@@ -92,13 +92,14 @@ There are not several different types of surface mount microSD slots that can be
     | Adjustable output voltage | More expensive than other options |
     | | Low maximum current |
 
-    **Selection and Rationale**:
+**Selection and Rationale**:
 I selected option #1 "IC REG BUCK 3.3V 2A TSOT23-6", it is the most simple, inexpensive and straightforward of the three options. The 2A limit is likely more than enough for my board, and the large input voltage range is plenty for the input power. Overall there's no reason to overcomplicate this component, the first option works.
 
 
    **LED**
 
 1. LED BLUE CLEAR SMD
+
     ![](Led1.webp)
 
     * $0.13/each
@@ -109,7 +110,8 @@ I selected option #1 "IC REG BUCK 3.3V 2A TSOT23-6", it is the most simple, inex
     | Cheap device | Higher current draw |
     | Higher input voltage, no resistors required | Not diffused |
 
-2. 	LED RED DIFFUSED 0603 SMD
+3. 	LED RED DIFFUSED 0603 SMD
+
     ![](Led2.webp)
 
     * $0.14/each
@@ -120,7 +122,8 @@ I selected option #1 "IC REG BUCK 3.3V 2A TSOT23-6", it is the most simple, inex
     | LED is diffused | Very small, may be difficult to solder |
     | Lower current draw | Will require a resistor |
 
-3. LED RED DIFFUSED 1608 SMD
+5. LED RED DIFFUSED 1608 SMD
+
     ![](Led3.jpg)
 
     * $0.12/each
@@ -131,7 +134,7 @@ I selected option #1 "IC REG BUCK 3.3V 2A TSOT23-6", it is the most simple, inex
     | LED is diffused | Small, may be difficult to solder |
     | Lower current draw | Will require a resistor |
 
-   **Selection and Rationale**:
+**Selection and Rationale**:
 I selected option #3, "LED RED DIFFUSED 1608 SMD". Mainly I just wanted the diffisued LEDs for the astetic, and i like the color red. On the more practical side, the LED used doesn't matter too much, and these LEDs will work just fine, the additional requirment of a resistor isn't too much added difficulty, and although the LED is small I believe I will be able to solder it.
 
 
