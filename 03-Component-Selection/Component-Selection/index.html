@@ -1244,12 +1244,36 @@ The board I am tasked with creating will have abilitiy to take pictures with a c
 <p><strong>Pinout Diagram:</strong>
 <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Esp32.jpg" data-desc-position="bottom"><img alt="" src="../Esp32.jpg"></a></p>
 <p><strong>Pin assignments:</strong></p>
-<p>|Peripheral|Pins|
-|LED1|GPIO4, GND|
-|LED2|GPIO5, GND|
-|Camera|IO10-IO14, IO21, GND|
-|MicroSD|IO10-IO13, GND|
-|UART|IO36,IO37|</p>
+<table>
+<thead>
+<tr>
+<th>Peripheral</th>
+<th>Pins</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LED1</td>
+<td>GPIO4, GND</td>
+</tr>
+<tr>
+<td>LED2</td>
+<td>GPIO5, GND</td>
+</tr>
+<tr>
+<td>Camera</td>
+<td>IO10-IO14, IO21, GND</td>
+</tr>
+<tr>
+<td>MicroSD</td>
+<td>IO10-IO13, GND</td>
+</tr>
+<tr>
+<td>UART</td>
+<td>IO36,IO37</td>
+</tr>
+</tbody>
+</table>
 <p><strong>Microcontroller selection:</strong>
 I have selected the ESP32 mainly because it is faster, and has more memory than the PIC. Saving image data will likely take a large chunk of the microcontrollers memory, and reading and moving that data will be helped by the ESP32's increased speed. Although the two options would likely both work, the increased storage size itself is enough of a reason to choose the ESP32.</p>
 
