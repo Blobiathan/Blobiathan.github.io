@@ -181,6 +181,7 @@ The board I am tasked with creating will have abilitiy to take pictures with a c
 **Pin assignments:**
 
 |Peripheral|Pins|
+| -------------- | ----------- |
 |LED1|GPIO4, GND|
 |LED2|GPIO5, GND|
 |Camera|IO10-IO14, IO21, GND|
