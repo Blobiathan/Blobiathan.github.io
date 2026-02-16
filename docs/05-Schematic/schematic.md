@@ -4,13 +4,12 @@ title: Module Schematic
 
 ## Overview
 
-This schematic is design to support .... (highlight functionally, power, and controller).
+This schematic is designed to control a camera daughterboard, and save images to a microSD card. It also has additional hardware such as debug buttons and LEDs as well as extra headers and jumpers for debugging.
 
-
-![schematic](Screenshot.png){style width:"350" height:"300;"}
-**Figure ##:** Showing a example schematic.
+<img src="LeviPCB.png" width="350" />
+**Figure ##:** Schematic.
 
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](ExampleSchematic.pdf), and the Zip folder of the project [*here*](dummyZip.zip).
+The schematic as a PDF download is available [*here*](LeviPCB.pdf), and the Zip folder of the project [*here*](LeviPCB.zip).
