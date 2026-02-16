@@ -180,13 +180,13 @@ The board I am tasked with creating will have abilitiy to take pictures with a c
 
 **Pin assignments:**
 
-|Peripheral|Pins|
+| **Peripheral** | **Pins** |
 | -------------- | ----------- |
-|LED1|GPIO4, GND|
-|LED2|GPIO5, GND|
-|Camera|IO10-IO14, IO21, GND|
-|MicroSD|IO10-IO13, GND|
-|UART|IO36,IO37|
+| LED1 | GPIO4, GND |
+| LED2 | GPIO5, GND |
+| Camera | IO10-IO14, IO21, GND |
+| MicroSD | IO10-IO13, GND |
+| UART | IO36,IO37 |
 
 
 **Microcontroller selection:**
