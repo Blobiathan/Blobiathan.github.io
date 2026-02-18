@@ -191,3 +191,8 @@ The board I am tasked with creating will have abilitiy to take pictures with a c
 
 **Microcontroller selection:**
 I have selected the ESP32 mainly because it is faster, and has more memory than the PIC. Saving image data will likely take a large chunk of the microcontrollers memory, and reading and moving that data will be helped by the ESP32's increased speed. Although the two options would likely both work, the increased storage size itself is enough of a reason to choose the ESP32.
+
+## Power Budget
+
+![](LeviPowerBudget.png)
+[Excel Download](PowerBudget.xlsx)
