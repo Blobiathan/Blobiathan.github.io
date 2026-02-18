@@ -14,5 +14,5 @@ The block diagram is useful for planning the functions of the PCB in a more abst
 
 ## Example Block Diagram 
 
-![LeviBlockDiagram](LeviBlockDiagram.png)
-![PDF Download](BlockDiagramPDF.pdf)
+![LeviBlockDiagram](LeviBD.png)
+![PDF Download](LeviBD.pdf)
