@@ -11,22 +11,20 @@ as part of<br>
 for<br>
 <font size= "5"> Team 201 </font><br>
 
-**Submission: 1, 13, 2026**
+**Submission: 3, 6, 2026**
 </center>
 
 ## Introduction
-
-* This needs to be updated so that a reader gets an idea of the purpose of this datasheet.
+* This datasheet shows a detailed look at my specific role in this project, and gives a better explanation of how my board connects and communicates with the rest of the group.
 
 ### Project Summary
 
-* This needs to be updated to reflect <ins>your version</ins> of the team project, so when shared not via the team's report, the reader gets an idea of the direction of the project and how your work will contribute to the overall success.
-* Add context that ties into the link to your [team report.](https://egr314-s-2026-201.github.io/)
+* The projects goal is to create a remote controlled aquatic device, that can be steered and gather a variety of sense data that is reported back to the controller wirelessly. My goal in the project is to create a board that can take image data and save it to an SD card for later retreival.
+* The team report can be found here [team report](https://egr314-s-2026-201.github.io/)
 
 
 ### My Contribution
 
-* This needs to be updated to reflect a team introduction
-* Content should also help an unfamiliar reader navigate to areas of interest. Information like:
+* My board will have a camera that will collect images when promped by a button on the controller, it will save these images to a micro SD card. It will recive signals from a controller prompting it to take and save an image. This board will have an upstream and a downstream header to connect with other teammates boards.
 
 To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/03-BOM/BOM/) section of the datasheet.
