@@ -25,6 +25,9 @@ CAP CER 0.1UF 50V X7R 0805 | 10 | $0.01600 | $0.16 | KEMET | C0805C104K5RACTU | 
  RES SMD 100 OHM 1% 1/4W 0805 | 10 |  $0.04100 | $0.41 |  Vishay Dale |CRCW0805100RFKEA | [Digikey](https://www.digikey.com/en/products/detail/vishay-dale/CRCW0805100RFKEA/1175523) | [datasheet link](https://www.vishay.com/docs/20035/dcrcwe3.pdf) | R1, R2, R3, R7
   RES SMD 10K OHM 1% 1/4W 0805 | 10 | $0.04100 | $0.41 |   Vishay Dale  | CRCW080510K0FKEA | [Digikey](https://www.digikey.com/en/products/detail/vishay-dale/CRCW080510K0FKEA/1175751) | [datasheet link](https://www.vishay.com/docs/20035/dcrcwe3.pdf) | R5, R6, R8, R9
    RF TXRX MODULE BT PCB TRACE SMD | 2 | $5.06000| $10.12 |  Espressif Systems  |ESP32-S3-WROOM-1-N4|[Digikey](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16162639) | [datasheet link](https://documentation.espressif.com/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf) | U1
+ IC REG BUCK 3.3V 2A TSOT23-6 | 2 | $0.71000 | $1.42 |  Diodes Incorporated | AP63203WU-7 | [Digikey](https://www.digikey.com/en/products/detail/diodes-incorporated/AP63203WU-7/9858426) | [datasheet link](https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf) | U3
+ IC REG LINEAR 5V 300MA SOT23-3 | 2 | $0.25000 | $0.50 |  Diodes Incorporated | AP7375-50SA-7 | [Digikey](https://www.digikey.com/en/products/detail/diodes-incorporated/AP7375-50SA-7/16400218) | [datasheet link](https://www.diodes.com/assets/Datasheets/AP7375.pdf) | U2
+ Arducam Mini 2MP Plus - OV2640 SPI Camera Module for Arduino UNO Mega2560 Board & Raspberry Pi Pico | 1 | $25.99 | $25.99 | Arducam | B0067 | [Arducam](https://www.arducam.com/arducam-2mp-spi-camera-b0067-arduino.html) | [datasheet link](https://www.uctronics.com/download/Amazon/ArduCAM_Mini_2MP_Camera_Shield_DS.pdf) | J2
  
 
 Note: Setting it up as a table is nice because it is completely viewable without scaling issues. <ins>Downside</ins> is that you have to do the math.
