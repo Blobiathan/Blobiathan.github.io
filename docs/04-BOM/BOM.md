@@ -6,13 +6,11 @@ tags:
 ---
 
 ## Overview
-Written context needs to added!
+This bill of materials contains all components to assemble the designed PCB. All parts come from digikey, with the exception of the camera which is sold by ArduCam. The table contains links, prices, and quantities.
 
->Pick **ONLY** one of the two examples show below. **Remove** the other example. **REMOVE notations within the remaining section about being an example.**  
+## Bill of Materials
 
-## Bill of Materials (Example as Table)
-
-*Table ##: An example of one approach to adding your BOM table to this section.*
+*Table 1: Bill of Materials*
 
 | **Part Name/Description** | **Qty** | **Unit Cost** | **Total Cost** | **Manufacture** | **Manufacturer #** | **Vendor Link** |**Datasheet Link** | **Schematic Reference Designators** |
 |:--------------------|:----|:---------------|:-----|:--------|:-----|:-----|:----|:-----|
@@ -30,16 +28,6 @@ CAP CER 0.1UF 50V X7R 0805 | 10 | $0.01600 | $0.16 | KEMET | C0805C104K5RACTU | 
  Arducam Mini 2MP Plus - OV2640 SPI Camera Module for Arduino UNO Mega2560 Board & Raspberry Pi Pico | 1 | $25.99 | $25.99 | Arducam | B0067 | [Arducam](https://www.arducam.com/arducam-2mp-spi-camera-b0067-arduino.html) | [datasheet link](https://www.uctronics.com/download/Amazon/ArduCAM_Mini_2MP_Camera_Shield_DS.pdf) | J2
  
 
-Note: Setting it up as a table is nice because it is completely viewable without scaling issues. <ins>Downside</ins> is that you have to do the math.
-
-* You could also import your BOM via a screenshot of the spreadsheet created BOM
-
-## Bill of Materials (Example as Image)
-![](BOM-Screenshot.png){style width: "2000"}
-**Figure ##:** Example Bill of Materials as a screenshot.
-
-As you can see, the text can be difficult to read without opening the image.
-
 ## Resouce
 
-The Bill of Material as a PDF download is available [*here*](PDF_For_BOM_EXAMPLE.pdf).
+The Bill of Material as a PDF download is available [*here*](BOM.pdf).
