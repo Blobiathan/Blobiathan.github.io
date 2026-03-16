@@ -11,7 +11,7 @@ title: Module Schematic
 | Variable Type | uint8_t |
 | Min Value | 4 |
 | Max Value | 4 |
-| Example | 1 |
+| Example | 4 |
 
 **Display Speed Data:**
 ||**Byte 1**|**Byte 2**|
@@ -21,3 +21,21 @@ title: Module Schematic
 | Min Value | 8 | 0 |
 | Max Value | 8 | 255 |
 | Example | 8 | 140 |
+
+**Get Distance:**
+||**Byte 1**|
+| :-------: | :-------: |
+| Variable Name | message_type |
+| Variable Type | uint8_t |
+| Min Value | 6 |
+| Max Value | 6 |
+| Example | 6 |
+
+**Get Temperature:**
+||**Byte 1**|
+| :-------: | :-------: |
+| Variable Name | message_type |
+| Variable Type | uint8_t |
+| Min Value | 7 |
+| Max Value | 7 |
+| Example | 7 |
