@@ -90,7 +90,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#overview" class="md-skip">
+        <a href="#messages" class="md-skip">
           Skip to content
         </a>
       
@@ -752,18 +752,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
+  <a href="#messages" class="md-nav__link">
     <span class="md-ellipsis">
-      Overview
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#resouces" class="md-nav__link">
-    <span class="md-ellipsis">
-      Resouces
+      Messages
     </span>
   </a>
   
@@ -866,18 +857,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
+  <a href="#messages" class="md-nav__link">
     <span class="md-ellipsis">
-      Overview
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#resouces" class="md-nav__link">
-    <span class="md-ellipsis">
-      Resouces
+      Messages
     </span>
   </a>
   
@@ -908,12 +890,46 @@
 
   <h1>Module Schematic</h1>
 
-<h2 id="overview">Overview</h2>
-<p>This schematic is designed to control a camera daughterboard, and save images to a microSD card. It also has additional hardware such as debug buttons and LEDs as well as extra headers and jumpers for debugging.</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="Esp32Camera2.png" data-desc-position="bottom"><img alt="" src="Esp32Camera2.png"></a></p>
-<p><strong>Figure 1:</strong> Schematic.</p>
-<h2 id="resouces">Resouces</h2>
-<p>The schematic as a PDF download is available <a href="Esp32Camera2.pdf"><em>here</em></a>, and the Zip folder of the project <a href="Esp32Camera2.zip"><em>here</em></a>.</p>
+<h2 id="messages">Messages</h2>
+<p><strong>Take Photo:</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"></th>
+<th style="text-align: center;"><strong>Byte 1</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Variable Name</td>
+<td style="text-align: center;">message_type</td>
+</tr>
+<tr>
+<td style="text-align: center;">Variable Type</td>
+<td style="text-align: center;">uint8_t</td>
+</tr>
+<tr>
+<td style="text-align: center;">Min Value</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: center;">Max Value</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: center;">Example</td>
+<td style="text-align: center;">1</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Display Speed Data:</strong>
+||<strong>Byte 1</strong>|<strong>Byte 2</strong>|
+| :-------: | :-------: |:-------: |
+| Variable Name | message_type | value |
+| Variable Type | uint8_t | uint8_t |
+| Min Value | 8 | 0 |
+| Max Value | 8 | 255 |
+| Example | 8 | 140 |</p>
 
 
 
