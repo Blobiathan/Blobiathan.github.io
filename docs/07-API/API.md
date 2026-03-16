@@ -2,15 +2,22 @@
 title: Module Schematic
 ---
 
-## Overview
+## Messages
+**Take Photo:**
 
-This schematic is designed to control a camera daughterboard, and save images to a microSD card. It also has additional hardware such as debug buttons and LEDs as well as extra headers and jumpers for debugging.
+||**Byte 1**|
+| :-------: | :-------: |
+| Variable Name | message_type |
+| Variable Type | uint8_t |
+| Min Value | 4 |
+| Max Value | 4 |
+| Example | 1 |
 
-![](Esp32Camera2.png)
-
-**Figure 1:** Schematic.
-
-
-## Resouces
-
-The schematic as a PDF download is available [*here*](Esp32Camera2.pdf), and the Zip folder of the project [*here*](Esp32Camera2.zip).
+**Display Speed Data:**
+||**Byte 1**|**Byte 2**|
+| :-------: | :-------: |:-------: |
+| Variable Name | message_type | value |
+| Variable Type | uint8_t | uint8_t |
+| Min Value | 8 | 0 |
+| Max Value | 8 | 255 |
+| Example | 8 | 140 |
