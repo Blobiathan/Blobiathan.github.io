@@ -6,7 +6,7 @@ My board will only be acting when it recieves the "Take Photo" message, all othe
 ## Messages
 **Take Photo:**
 
-||**Byte 1**|
+||**Byte 1-2**|
 | :-------: | :-------: |
 | Variable Name | message_type |
 | Variable Type | uint8_t |
@@ -16,7 +16,7 @@ My board will only be acting when it recieves the "Take Photo" message, all othe
 
 **Display Speed Data:**
 
-||**Byte 1**|**Byte 2**|
+||**Byte 1-2**|**Byte 3**|
 | :-------: | :-------: |:-------: |
 | Variable Name | message_type | value |
 | Variable Type | uint8_t | uint8_t |
@@ -26,7 +26,7 @@ My board will only be acting when it recieves the "Take Photo" message, all othe
 
 **Get Distance:**
 
-||**Byte 1**|
+||**Byte 1-2**|
 | :-------: | :-------: |
 | Variable Name | message_type |
 | Variable Type | uint8_t |
@@ -36,7 +36,7 @@ My board will only be acting when it recieves the "Take Photo" message, all othe
 
 **Get Temperature:**
 
-||**Byte 1**|
+||**Byte 1-2**|
 | :-------: | :-------: |
 | Variable Name | message_type |
 | Variable Type | uint8_t |
