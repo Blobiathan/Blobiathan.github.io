@@ -15,6 +15,7 @@ My board will only be acting when it recieves the "Take Photo" message, all othe
 | Example | 4 |
 
 **Display Speed Data:**
+
 ||**Byte 1**|**Byte 2**|
 | :-------: | :-------: |:-------: |
 | Variable Name | message_type | value |
@@ -24,6 +25,7 @@ My board will only be acting when it recieves the "Take Photo" message, all othe
 | Example | 8 | 140 |
 
 **Get Distance:**
+
 ||**Byte 1**|
 | :-------: | :-------: |
 | Variable Name | message_type |
@@ -33,6 +35,7 @@ My board will only be acting when it recieves the "Take Photo" message, all othe
 | Example | 6 |
 
 **Get Temperature:**
+
 ||**Byte 1**|
 | :-------: | :-------: |
 | Variable Name | message_type |
