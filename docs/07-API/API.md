@@ -20,9 +20,9 @@ My board will only be acting when it recieves the "Take Photo" message, and "Rol
 | :-------: | :-------: | :-------: | :-------: | :-------: |
 | Variable Name | Sender_ID | Reciever_ID | Message_Type | Speed |
 | Variable Type | char | char | uint8_t | uint8_t |
-| Min Value | A | A |5 | 0 |
-| Max Value | J | J | 5| 255|
-| Example | A | F |5 | 125 | 
+| Min Value | H | A |5 | 0 |
+| Max Value | H | A | 5| 255|
+| Example | H | A |5 | 125 | 
 
 **RoleCall**
 
@@ -30,6 +30,6 @@ My board will only be acting when it recieves the "Take Photo" message, and "Rol
 | :-------: | :-------: | :-------: | :-------: |
 | Variable Name | Sender_ID | Reciever_ID | Message_Type |
 | Variable Type | char | char | uint8_t |
-| Min Value | A | A |11 |
-| Max Value | J | J | 11|
-| Example | A | J |11 |
+| Min Value | A | X |12 |
+| Max Value | J | X | 12|
+| Example | A | J |12 |
