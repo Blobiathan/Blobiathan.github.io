@@ -4,7 +4,7 @@ title: Module Schematic
 ## Overview
 My board will only be acting when it recieves the "Take Photo" message, all other messages this board recieves will be passed along downstream. Beneath are all posible messages that this board will be able to receive, any other invalid or misformed messages will be discarded.
 ## Messages
-**Take Photo:**
+**Take picture:**
 
 ||**Byte 1-2**|
 | :-------: | :-------: |
@@ -14,32 +14,22 @@ My board will only be acting when it recieves the "Take Photo" message, all othe
 | Max Value | 4 |
 | Example | 4 |
 
-**Display Speed Data:**
+**Send speed data in m/s:**
 
 ||**Byte 1-2**|**Byte 3**|
 | :-------: | :-------: |:-------: |
 | Variable Name | message_type | value |
 | Variable Type | uint16_t | uint8_t |
-| Min Value | 8 | 0 |
-| Max Value | 8 | 255 |
-| Example | 8 | 140 |
+| Min Value | 5 | 0 |
+| Max Value | 5 | 255 |
+| Example | 5 | 140 |
 
-**Get Distance:**
-
-||**Byte 1-2**|
-| :-------: | :-------: |
-| Variable Name | message_type |
-| Variable Type | uint16_t |
-| Min Value | 6 |
-| Max Value | 6 |
-| Example | 6 |
-
-**Get Temperature:**
+**RoleCall**
 
 ||**Byte 1-2**|
 | :-------: | :-------: |
 | Variable Name | message_type |
 | Variable Type | uint16_t |
-| Min Value | 7 |
-| Max Value | 7 |
-| Example | 7 |
+| Min Value | 11 |
+| Max Value | 11 |
+| Example | 11 |
