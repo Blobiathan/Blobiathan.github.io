@@ -8,7 +8,7 @@ My board will only be acting when it recieves the "Take Photo" message, and "Rol
 
 ||**Byte 1** |**Byte 2**|**Byte 3**|
 | :-------: | :-------: | :-------: | :-------: |
-| | Sender_ID | Reciever_ID | Message_Type |
+| Variable Name | Sender_ID | Reciever_ID | Message_Type |
 | Variable Type | char | char | uint8_t |
 | Min Value | A | A |4 |
 | Max Value | J | J | 4|
@@ -18,7 +18,7 @@ My board will only be acting when it recieves the "Take Photo" message, and "Rol
 
 ||**Byte 1** |**Byte 2**|**Byte 3**|**Byte 4**|
 | :-------: | :-------: | :-------: | :-------: | :-------: |
-| | Sender_ID | Reciever_ID | Message_Type | Speed |
+| Variable Name | Sender_ID | Reciever_ID | Message_Type | Speed |
 | Variable Type | char | char | uint8_t | uint8_t |
 | Min Value | A | A |5 | 0 |
 | Max Value | J | J | 5| 255|
@@ -28,7 +28,7 @@ My board will only be acting when it recieves the "Take Photo" message, and "Rol
 
 ||**Byte 1** |**Byte 2**|**Byte 3**|
 | :-------: | :-------: | :-------: | :-------: |
-| | Sender_ID | Reciever_ID | Message_Type |
+| Variable Name | Sender_ID | Reciever_ID | Message_Type |
 | Variable Type | char | char | uint8_t |
 | Min Value | A | A |11 |
 | Max Value | J | J | 11|
