@@ -2,7 +2,7 @@
 title: Module Schematic
 ---
 ## Overview
-My board will only be acting when it recieves the "Take Photo" message, all other messages this board recieves will be passed along downstream. Beneath are all posible messages that this board will be able to receive, any other invalid or misformed messages will be discarded.
+My board will only be acting when it recieves the "Take Photo" message, and "Rolecall" message. All other messages this board recieves will be passed along downstream. Beneath are all posible messages that this board will be able to receive, any other invalid or misformed messages will be discarded.
 ## Messages
 **Take picture:**
 
