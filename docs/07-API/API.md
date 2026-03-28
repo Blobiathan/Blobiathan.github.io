@@ -6,30 +6,30 @@ My board will only be acting when it recieves the "Take Photo" message, and "Rol
 ## Messages
 **Take picture:**
 
-||**Byte 1-2**|
-| :-------: | :-------: |
-| Variable Name | message_type |
-| Variable Type | uint16_t |
-| Min Value | 4 |
-| Max Value | 4 |
-| Example | 4 |
+||**Byte 1** |**Byte 2**|**Byte 3**|
+| :-------: | :-------: | :-------: | :-------: |
+| | Sender_ID | Reciever_ID | Message_Type |
+| Variable Type | char | char | uint8_t |
+| Min Value | A | A |4 |
+| Max Value | J | J | 4|
+| Example | A | F |4 |
 
 **Send speed data in m/s:**
 
-||**Byte 1-2**|**Byte 3**|
-| :-------: | :-------: |:-------: |
-| Variable Name | message_type | value |
-| Variable Type | uint16_t | uint8_t |
-| Min Value | 5 | 0 |
-| Max Value | 5 | 255 |
-| Example | 5 | 140 |
+||**Byte 1** |**Byte 2**|**Byte 3**|**Byte 4**|
+| :-------: | :-------: | :-------: | :-------: | :-------: |
+| | Sender_ID | Reciever_ID | Message_Type | Speed |
+| Variable Type | char | char | uint8_t | uint8_t |
+| Min Value | A | A |5 | 0 |
+| Max Value | J | J | 5| 255|
+| Example | A | F |5 | 125 | 
 
 **RoleCall**
 
-||**Byte 1-2**|
-| :-------: | :-------: |
-| Variable Name | message_type |
-| Variable Type | uint16_t |
-| Min Value | 11 |
-| Max Value | 11 |
-| Example | 11 |
+||**Byte 1** |**Byte 2**|**Byte 3**|
+| :-------: | :-------: | :-------: | :-------: |
+| | Sender_ID | Reciever_ID | Message_Type |
+| Variable Type | char | char | uint8_t |
+| Min Value | A | A |11 |
+| Max Value | J | J | 11|
+| Example | A | J |11 |
