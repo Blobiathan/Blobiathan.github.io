@@ -10,6 +10,14 @@ This schematic is designed to control a camera daughterboard, and save images to
 
 **Figure 1:** Schematic.
 
+![](Front_PCB.png)
+
+**Figure 2:** PCB Front
+
+![](Back_PCB.png)
+
+**Figure 3:** PCB Back
+
 
 ## Resouces
 
