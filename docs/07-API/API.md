@@ -10,8 +10,8 @@ My board will only be acting when it recieves the "Take Photo" message, and "Rol
 | :-------: | :-------: | :-------: | :-------: |
 | Variable Name | Sender_ID | Reciever_ID | Message_Type |
 | Variable Type | char | char | uint8_t |
-| Min Value | A | A |4 |
-| Max Value | J | J | 4|
+| Min Value | A | F |4 |
+| Max Value | A | F | 4|
 | Example | A | F |4 |
 
 **Send speed data in m/s:**
