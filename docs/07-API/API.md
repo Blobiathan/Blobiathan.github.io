@@ -9,20 +9,20 @@ My board will only be acting when it recieves the "Take Photo" message, and "Rol
 ||**Byte 1** |**Byte 2**|**Byte 3**|
 | :-------: | :-------: | :-------: | :-------: |
 | Variable Name | Sender_ID | Reciever_ID | Message_Type |
-| Variable Type | char | char | uint8_t |
-| Min Value | A | F |4 |
-| Max Value | A | F | 4|
-| Example | A | F |4 |
+| Variable Type | char | char | char |
+| Min Value | A | F | D |
+| Max Value | A | F | D |
+| Example | A | F | D |
 
 **Send speed data in m/s:**
 
 ||**Byte 1** |**Byte 2**|**Byte 3**|**Byte 4**|
 | :-------: | :-------: | :-------: | :-------: | :-------: |
 | Variable Name | Sender_ID | Reciever_ID | Message_Type | Speed |
-| Variable Type | char | char | uint8_t | uint8_t |
-| Min Value | H | A |5 | 0 |
-| Max Value | H | A | 5| 255|
-| Example | H | A |5 | 125 | 
+| Variable Type | char | char | char | uint8_t |
+| Min Value | H | A | E | 0 |
+| Max Value | H | A | E | 255|
+| Example | H | A | E | 125 | 
 
 **RoleCall**
 
@@ -30,9 +30,9 @@ My board will only be acting when it recieves the "Take Photo" message, and "Rol
 | :-------: | :-------: | :-------: | :-------: |
 | Variable Name | Sender_ID | Reciever_ID | Message_Type |
 | Variable Type | char | char | uint8_t |
-| Min Value | A | X |12 |
-| Max Value | J | X | 12|
-| Example | A | J |12 |
+| Min Value | A | X | J |
+| Max Value | J | X | J |
+| Example | A | J | J |
 
 
 **Code Download:**
