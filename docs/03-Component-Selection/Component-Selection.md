@@ -196,3 +196,12 @@ I have selected the ESP32 mainly because it is faster, and has more memory than 
 
 ![](LeviPowerBudget.png)
 [Excel Download](PowerBudget.xlsx)
+
+
+## Summary Table
+
+| **Component type** | **Component selected** | **Option number** |
+| -------------- | ----------- | ----------- |
+| Camera | Arducam 2MP | 2 |
+| Voltage Regulator | IC REG BUCK 3.3V 2A TSOT23-6 | 1 |
+| LED | LED RED DIFFUSED 1608 SMD | 3 |
