@@ -16,3 +16,6 @@ The block diagram is useful for planning the functions of the PCB in a more abst
 
 ![LeviBlockDiagram](LeviBD.png)
 ![PDF Download](LeviBD.pdf)
+
+## Explanation
+The block diagram was designed with all the project requirements in mind, it includes a sensor, upstream and downstream headers, LEDs, a debug button, and a 3.3V power regulator. These are the main requirments of the project, additionally there is a micro SD slot, which was a personal stretch goal and not required. Designing this block diagram before the electrical schematic allowed it to serve as a guideline for the later designs of the PCB, since it showed what components had to be within the design.
