@@ -36,4 +36,4 @@ My board will only be acting when it recieves the "Take Photo" message, and "Rol
 
 
 **Code Download:**
-![Code](LeviAddinkCode.c)
+![Code](../LeviAddinkCode.c)
