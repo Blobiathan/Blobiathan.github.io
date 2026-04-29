@@ -197,6 +197,9 @@ I have selected the ESP32 mainly because it is faster, and has more memory than 
 ![](LeviPowerBudget.png)
 [Excel Download](PowerBudget.xlsx)
 
+**Power budget explanation:**
+The power budget was used to make sure that both the voltage regulators on the board, and the team power supply could handle the current requirments of my board. The budget shows that there is a fair amount of excess current capabilites, so no changes had to be made. This was later confirmed when the board was assmembled and current draw was measured.
+
 
 ## Summary Table
 
